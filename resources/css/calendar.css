@@ -1,0 +1,69 @@
+#Calendar {
+	width:500px;	
+}
+
+#Calendar td {
+	font: 300 100%/1.5em 'Lato', sans-serif;
+	border: 2px solid transparent;
+	border-radius: 50%;
+	display: inline-block;
+	height: 4em;
+	line-height: 4em;
+	text-align: center;
+	width: 4em;
+}
+
+#Calendar .cMonth {
+	font-weight:bold;
+	text-align:center;
+}
+
+#Calendar .wDays {
+	font-weight:bold;
+	text-align:center;
+	background-color:#CCC;
+}
+
+#Calendar .mNav {
+	font-weight:bold;
+	text-align:center;
+	background-color:#CCC;
+}
+
+#Calendar table td a {
+	text-decoration:none;
+	color:#000;
+}
+
+#Calendar table td a:hover {
+	text-decoration:underline;
+}
+
+
+#Calendar .withevent {
+	text-align:center;
+	background-color:#CCC;
+	color:#000;
+	cursor:pointer;
+}
+
+#Calendar .noevent {
+	text-align:center;
+	background-color:#FFF;
+	color:#000;
+}
+
+
+#Events {
+	width:300px;	
+}
+
+#Events h2 {
+	font: 300 100%/1.5em 'Lato', sans-serif;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+#Events span {
+	font: 300 75%/1.0em 'Lato', sans-serif;
+}
