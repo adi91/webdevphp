@@ -49,7 +49,7 @@ class User{
 		    $this->create_db();
 		}
 		
-		$this->create_id();
+		$this->create_u_id();
 		
 		return $this;
 	}
@@ -98,8 +98,8 @@ class User{
 
 			if ($row = $this->verify_password()) {
 
-				session_regenerate_id(true);
-				$_SESSION['id'] = session_id();
+				session_regenerate_u_id(true);
+				$_SESSION['u_id'] = session_u_id();
 				$_SESSION['username'] = $this->username;
 				$_SESSION['email'] = $row->email;
 				$_SESSION['is_logged'] = true;
@@ -107,7 +107,7 @@ class User{
 				// Set a cookie that expires in one week
 				if (isset($_POST['remember']))
 					setcookie('username', $this->username, time() + 604800);
-				// To avoid resending the form on refreshing
+				// To avou_id resending the form on refreshing
 				header('Location: ' . $_SERVER['REQUEST_URI']);
 				exit();
 
@@ -128,7 +128,7 @@ class User{
 
 	private function verify_password() {
 
-		$query  = 'SELECT * FROM users '
+		$query  = 'SELECT * FROM user '
 				. 'WHERE user = "' . $this->username . '" '
 				. 'AND password = "' . $this->password . '"';
 
@@ -162,14 +162,14 @@ class User{
 				$password = sha1($_POST['password']);
 				$email = $_POST['email'];
 
-				$query  = 'INSERT INTO users (id,user, password, email) '
-						. 'VALUES ("'. $this->create_id() . '", "' . $username . '", "' . $password . '", "' . $email . '")';
+				$query  = 'INSERT INTO user (u_id,user, password, email) '
+						. 'VALUES ("'. $this->create_u_id() . '", "' . $username . '", "' . $password . '", "' . $email . '")';
 				
 				if ($this->db->query($query)) {
 				echo 'point2';
 					if ($first_user) {
-						session_regenerate_id(true);
-						$_SESSION['id'] = session_id();
+						session_regenerate_u_id(true);
+						$_SESSION['u_id'] = session_u_id();
 						$_SESSION['username'] = $username;
 						$_SESSION['email'] = $email;
 						$_SESSION['is_logged'] = true;
@@ -178,7 +178,7 @@ class User{
 						$this->msg[] = 'User created.';
 						$_SESSION['msg'] = $this->msg;
 					}
-					// To avoid resending the form on refreshing
+					// To avou_id resending the form on refreshing
 					header('Location: ' . $_SERVER['REQUEST_URI']);
 					exit();
 
@@ -209,7 +209,7 @@ class User{
 
 			$this->email = $this->db->real_escape_string($_POST['email']);
 
-			$query  = 'UPDATE users '
+			$query  = 'UPDATE user '
 					. 'SET email = "' . $this->email . '" '
 					. 'WHERE user = "' . $username . '"';
 
@@ -228,7 +228,7 @@ class User{
 
 					$this->password = sha1($this->db->real_escape_string($_POST['newpassword1']));
 
-					$query  = 'UPDATE users '
+					$query  = 'UPDATE user '
 							. 'SET password = "' . $this->password . '" '
 							. 'WHERE user = "' . $username . '"';
 
@@ -252,7 +252,7 @@ class User{
 			$this->error[] = 'You must enter the new password again.';
 		}
 
-		// To avoid resending the form on refreshing
+		// To avou_id resending the form on refreshing
 		$_SESSION['msg'] = $this->msg;
 		$_SESSION['error'] = $this->error;
 		header('Location: ' . $_SERVER['REQUEST_URI']);
@@ -263,23 +263,23 @@ class User{
 	// Delete an existing user
 
 	public function delete($user) {
-		$query = 'DELETE FROM users WHERE user = "' . $user . '"';
+		$query = 'DELETE FROM user WHERE user = "' . $user . '"';
 		return ($this->db->query($query));
 	}
 
 	// Get info about an user
 
 	public function get_user_info($user) {
-		$query = 'SELECT user, password, email FROM users WHERE user = "' . $user . '"';
+		$query = 'SELECT user, password, email FROM user WHERE user = "' . $user . '"';
 		$result = $this->db->query($query);
 		return $result->fetch_object();
 	}
 
-	// Get all the existing users
+	// Get all the existing user
 
 	public function get_users() {
 
-		$query = 'SELECT user, password, email FROM users';
+		$query = 'SELECT user, password, email FROM user';
 
 		return ($this->db->query($query));
 	}
@@ -300,37 +300,37 @@ class User{
 		}
 	}
 
-	private function create_id() {
-		$result = $this->db->query('SELECT max(id) as id FROM users');
+	private function create_u_id() {
+		$result = $this->db->query('SELECT max(u_id) as u_id FROM user');
 		$setrow = $result->fetch(PDO::FETCH_ASSOC);
-		$nextid = ltrim(substr($setrow['id'],3,6),'0') + 1;
-		$this->add_zeros($nextid);
+		$nextu_id = ltrim(substr($setrow['u_id'],3,6),'0') + 1;
+		$this->add_zeros($nextu_id);
 		
-		return "USR" . $nextid;
+		return "USR" . $nextu_id;
 		
 	}
 	
-	public function add_zeros($id) {
+	public function add_zeros($u_id) {
 		
-		$numzeros= 6 - strlen($id);
+		$numzeros= 6 - strlen($u_id);
 		
 		for($i=0;$i < $numzeros ; $i++)
 		{
-			$id = "0" . $id ;
+			$u_id = "0" . $u_id ;
 		}
 		
 	}
 	
-	// Check if the users db has been created
+	// Check if the user db has been created
 
 	public function db_exists() {
-		return ($this->db->query('SELECT 1 FROM users'));
+		return ($this->db->query('SELECT 1 FROM user'));
 	}
 
-	// Check if the users db has any users
+	// Check if the user db has any user
 
 	public function empty_db() {
-		$query = 'SELECT * FROM users';
+		$query = 'SELECT * FROM user';
 		echo 'pont3';
 		$result = $this->db->query($query);
 		return ($result->rowCount() === 0);
@@ -341,7 +341,7 @@ class User{
 	private function create_db() {
             
             
-		$query 	= 'CREATE TABLE users ('
+		$query 	= 'CREATE TABLE user ('
 				. 'user VARCHAR(75) NOT NULL, '
 				. 'password VARCHAR(75) NOT NULL, '
 				. 'email VARCHAR(150) NULL, '
@@ -356,7 +356,7 @@ class User{
 
 	private function drop_db() {
 
-		$query 	= 'DROP TABLE IF EXISTS users ';
+		$query 	= 'DROP TABLE IF EXISTS user ';
 
 	}
 
