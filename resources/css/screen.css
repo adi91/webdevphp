@@ -825,6 +825,7 @@ div.offer-ticker {
 	margin-left: 7.7%;
 	margin-right: 7.5%;
 	padding-bottom: 8px;
+    width: 100%;
 }
 div.offer-ticker > div.ticker-text {
     white-space:nowrap;

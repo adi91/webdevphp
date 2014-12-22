@@ -17,12 +17,14 @@ include 'Resources.php';
 				<div class="ticker-text">
 				Subscribe for monthly tiffin service and get 10% discount. Use Coupon code <b>TIFFIN30</b>.
 				</div>
-				<div class="ticker-text login">
+                <a id="modal_trigger" href="#modal" class="btn">Click here to Login or register</a>
+                <!--<button id="create-user">Create new user</button>-->
+<!--				<div class="ticker-text login">
 				    <a><b>Sign Up</b></a>
 				</div>
 				<div class="ticker-text login">
 				    <a><b>Log In</b></a>
-				</div>
+				</div>-->
 			</div>
 		
 			<div class="home-page">
@@ -586,6 +588,9 @@ include 'Resources.php';
             </div><!-- /.big-footer -->
             <!-- Copyright section -->
         </footer><!-- /.main-footer -->
+        
+       <?php  include 'login.php';?> 
+       
     </div>
 			  
     <!-- Scripts -->
@@ -627,6 +632,40 @@ include 'Resources.php';
 			// To initially run the function:
 			$(window).resize();
 		});
+        
+        
+    $("#modal_trigger").leanModal({top : 200, overlay : 0.6, closeButton: ".modal_close" });
+
+	$(function(){
+        $(".user_login").show();
+		// Calling Login Form
+		$("#login_form").click(function(){
+			$(".user_login").show();
+//			return false;
+		});
+
+		// Calling Register Form
+		$("#register_form").click(function(){
+			$(".user_login").hide();
+			$(".user_register").show();
+			$(".header_title").text('Register');
+			return false;
+		});
+
+		// Going back to Social Forms
+		$(".back_btn").click(function(){
+			$(".user_login").show();
+			$(".user_register").hide();
+			$(".header_title").text('Login');
+			return false;
+		});
+
+	})
+    $("#submit_login").click(function(){
+        alert('pop');
+//			return false;
+    });
+    
 </script>
 
 </body>

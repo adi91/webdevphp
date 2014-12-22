@@ -17,6 +17,8 @@
     <link href="resources/css/opensans400700.css" rel="stylesheet" type="text/css">
     <link href="resources/css/grandhotel.css" rel="stylesheet" type="text/css">
     <link href="resources/css/montserrat.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/login_box/login_box.css" rel="stylesheet" type="text/css">
+    <link href="resources/css/login_box/style.css" rel="stylesheet" type="text/css">
     
 	<link href="resources/css/calendar.css" rel="stylesheet" type="text/css" />
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:300,400,700">
@@ -36,4 +38,5 @@
 	<script src="resources/js/plugins/jquery.touchSwipe.min.js"></script>
 	<script src="resources/js/plugins/jquery.liquid-slider.js"></script> 
 	<script src="resources/js/plugins/prism.js"></script>
+	<script src="resources/js/jquery.leanModal.min.js"></script>
 </head>

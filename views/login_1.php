@@ -5,6 +5,31 @@
 		</header>
 		
 		<section class="popupBody">
+			<!-- Social Login -->
+			<div class="social_login">
+				<div class="">
+					<a href="#" class="social_box fb">
+						<span class="icon"><i class="fa fa-facebook"></i></span>
+						<span class="icon_title">Connect with Facebook</span>
+						
+					</a>
+
+					<a href="#" class="social_box google">
+						<span class="icon"><i class="fa fa-google-plus"></i></span>
+						<span class="icon_title">Connect with Google</span>
+					</a>
+				</div>
+
+				<div class="centeredText">
+					<span>Or use your Email address</span>
+				</div>
+
+				<div class="action_btns">
+					<div class="one_half"><a href="#" id="login_form" class="btn">Login</a></div>
+					<div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+				</div>
+			</div>
+
 			<!-- Username & Password Login form -->
 			<div class="user_login">
 				<form>
@@ -22,9 +47,8 @@
 					</div>
 
 					<div class="action_btns">
-						<!--<div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>-->
-						<div class="one_half "><a href="#" id="submit_login" class="btn btn_red">Login</a></div>
-                        <div class="one_half last"><a href="#" id="register_form" class="btn">Sign up</a></div>
+						<div class="one_half"><a href="#" class="btn back_btn"><i class="fa fa-angle-double-left"></i> Back</a></div>
+						<div class="one_half last"><a href="#" class="btn btn_red">Login</a></div>
 					</div>
 				</form>
 
