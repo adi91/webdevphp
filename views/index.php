@@ -192,7 +192,7 @@ include 'Resources.php';
                                    </header>
 
                                    <figure>
-                                        <a href="#"><img src="web/images/dish-of-day.jpg" alt="portfolio item"></a>
+                                        <a href="#"><img src="resources/images/dish-of-day.jpg" alt="portfolio item"></a>
                                         <figcaption class="background-white">
                                             <h2 class="entry-title no-margin aligncenter padding-top">Chicken. Soup</h2>
                                             
@@ -222,7 +222,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="web/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="resources/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Mascarpone mousse with nuts &amp; basil">Regular Tiffin</a>
                                                                 </figcaption>
@@ -238,7 +238,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="web/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="resources/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Sandwiches with fried bacon &amp; sauce">Punjabi Tiffin</a>
                                                                 </figcaption>
@@ -254,7 +254,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="web/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="resources/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Cookies with honey cream and bananas">South Indian Tiffin</a>
                                                                 </figcaption>
@@ -270,7 +270,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="web/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="resources/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Sandwiches with fried bacon &amp; sauce">Health Tiffin</a>
                                                                 </figcaption>
@@ -286,7 +286,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="web/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="resources/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Donut with scrambled eggs and bacon">Donut with scrambled eggs and bacon</a>
                                                                 </figcaption>
@@ -302,7 +302,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="web/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="resources/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
                                                                 </figcaption>
@@ -318,7 +318,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="web/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="resources/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Sandwiches with fried bacon &amp; sauce">Sandwiches with fried bacon &amp; sauce</a>
                                                                 </figcaption>
@@ -334,7 +334,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="web/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="resources/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Mascarpone mousse with nuts &amp; basil">Mascarpone mousse with nuts &amp; basil</a>
                                                                 </figcaption>
@@ -350,7 +350,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="web/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="resources/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
                                                                 </figcaption>
@@ -367,7 +367,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="web/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="resources/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Donut with scrambled eggs and bacon">Donut with scrambled eggs and bacon</a>
                                                                 </figcaption>
@@ -391,7 +391,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="web/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="resources/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Sandwiches with fried bacon &amp; sauce">Monthly Package</a>
                                                                 </figcaption>
@@ -407,7 +407,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="web/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/mascarpone-mousse.jpg" class="zoom-image"><img src="resources/images/dishes/mascarpone-mousse.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Mascarpone mousse with nuts &amp; basil">Mascarpone mousse with nuts &amp; basil</a>
                                                                 </figcaption>
@@ -423,7 +423,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="web/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="resources/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Cookies with honey cream and bananas">Add More Meals</a>
                                                                 </figcaption>
@@ -439,7 +439,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="web/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="resources/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Donut with scrambled eggs and bacon">Add Ons</a>
                                                                 </figcaption>
@@ -455,7 +455,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="web/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="resources/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
                                                                 </figcaption>
@@ -471,7 +471,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="web/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/sandwiches-with-fried-bacon.jpg" class="zoom-image"><img src="resources/images/dishes/sandwiches-with-fried-bacon.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Sandwiches with fried bacon &amp; sauce">Sandwiches with fried bacon &amp; sauce</a>
                                                                 </figcaption>
@@ -487,7 +487,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="web/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/cookies-with-honey-cream.jpg" class="zoom-image"><img src="resources/images/dishes/cookies-with-honey-cream.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Cookies with honey cream and bananas">Cookies with honey cream and bananas</a>
                                                                 </figcaption>
@@ -504,7 +504,7 @@ include 'Resources.php';
                                                     <div>
                                                         <div>
                                                             <figure>
-                                                                <a href="web/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="web/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
+                                                                <a href="resources/images/dishes/donut-with-scrambled-eggs.jpg" class="zoom-image"><img src="resources/images/dishes/donut-with-scrambled-eggs.jpg" alt="menu item"></a>
                                                                 <figcaption>
                                                                     <a href="post.html" title="Donut with scrambled eggs and bacon">Donut with scrambled eggs and bacon</a>
                                                                 </figcaption>
@@ -566,7 +566,7 @@ include 'Resources.php';
                         <div class="logo aligncenter margin-top-80">
                             <div class="identity relative">
                                 <a rel="home" title="home" href="index.html">
-                                    <img alt="Downtown theme logo" src="web/images/downtown-logo.png" />
+                                    <img alt="Downtown theme logo" src="resources/images/downtown-logo.png" />
                                 </a>
                             </div>
                         </div>
@@ -596,7 +596,7 @@ include 'Resources.php';
 			//hashLinking:true,
 			crossLinks:true,
 			firstPanelToLoad:1,
-			slideEaseFunction:'web/css/animate.css',
+			slideEaseFunction:'resources/css/animate.css',
 			slideEaseDuration:500,
 			//heightEaseDuration:1000,
 			animateIn: "fadeIn",

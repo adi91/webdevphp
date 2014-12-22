@@ -5,6 +5,7 @@
 
  /*** define the site path ***/
  $site_path = realpath(dirname(__FILE__));
+
  define ('__SITE_PATH', $site_path);
 
  /*** include the init.php file ***/
@@ -26,7 +27,7 @@
 ?>
 
 
-<form id="login" method="post" action="views\login.php">
+<!--<form id="login" method="post" action="views\login.php">
 	<label for="username">Username:</label>
 	<input type="text" id="username" name="username" placeholder="user" />
 	<label for="password">Password:</label>
@@ -37,4 +38,4 @@
 	 <input id="button-login" type="button"  name="reg" value="Register">
 	</a>
 	<input id="button-login" type="submit" name="login" value="Log in">
-</form>
+</form>-->

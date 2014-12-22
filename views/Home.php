@@ -560,7 +560,7 @@ include 'include.php';
                         <div class="logo aligncenter margin-top-80">
                             <div class="identity relative">
                                 <a rel="home" title="home" href="index.html">
-                                    <img alt="Downtown theme logo" src="web/images/downtown-logo.png" />
+                                    <img alt="Downtown theme logo" src="resources/images/downtown-logo.png" />
                                 </a>
                             </div>
                         </div>

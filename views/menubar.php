@@ -23,8 +23,8 @@
 		<div class="col-md-2 ">
 			<div class="logo aligncenter">
 				<div class="identity">
-					<a href="index.html" title="home" rel="home">
-						<img src="<?php echo 'resources/images/downtown-logo.png'; ?>" alt="Downtown theme logo">
+					<a href="index.php" title="home" rel="home">
+						<img src="resources/images/downtown-logo.png" alt="Downtown theme logo">
 					</a>
 				</div>
 			</div>

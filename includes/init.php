@@ -1,7 +1,7 @@
 <?php
 
  /*** include the controller class ***/
- include __SITE_PATH . '/application/' . 'controller_base.class.php';
+ include __SITE_PATH.'/application/'.'controller_base.class.php';
 
  /*** include the registry class ***/
  include __SITE_PATH . '/application/' . 'registry.class.php';
@@ -11,6 +11,7 @@
 
  /*** include the template class ***/
  include __SITE_PATH . '/application/' . 'template.class.php';
+
 
  /*** auto load model classes ***/
     function __autoload($class_name) {
